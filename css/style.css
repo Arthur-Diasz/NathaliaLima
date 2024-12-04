@@ -71,7 +71,7 @@ h6 {
 
 #hero::before {
     content: "";
-    background-image: url("../img/fachada.png");
+    background-image: url("../img/fachada.webp");
     background-size: cover;
     filter: brightness(0.5);
     position: absolute;
@@ -231,13 +231,12 @@ h6 {
 }
 
 .about-image {
-    height: 500px;
-    width: 350px;
+    height: 100%;
 }
 
 .about-image img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 
@@ -285,6 +284,11 @@ h6 {
     color: #e0e0e0;
     font-size: 0.9rem;
     margin-bottom: 0;
+}
+
+.feature-img {
+    height: 32px;
+    width: 32px;
 }
 
 .cta-button {
@@ -512,6 +516,17 @@ h6 {
         height: auto;
         min-height: 280px;
     }
+}
+
+.btn-projetos {
+    background-color: #1a0f0f;
+    border: 2px solid var(--white1);
+    transition: all 0.3s ease;
+}
+
+.btn-projetos:hover {
+    background-color: var(--white1);
+    color: var(--gaux);
 }
 
 /* FOOTER */
