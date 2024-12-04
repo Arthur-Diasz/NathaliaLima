@@ -71,7 +71,7 @@ h6 {
 
 #hero::before {
     content: "";
-    background-image: url("../img/hero.webp");
+    background-image: url("../img/fachada.png");
     background-size: cover;
     filter: brightness(0.5);
     position: absolute;
@@ -231,8 +231,8 @@ h6 {
 }
 
 .about-image {
-    width: 100%;
-
+    height: 500px;
+    width: 350px;
 }
 
 .about-image img {
@@ -435,6 +435,83 @@ h6 {
 .project-card:hover .project-overlay p,
 .project-card:hover .project-overlay .project-btn {
     transform: translateY(0);
+}
+
+/* */
+
+.testimonials-section {
+    padding: 5rem 0;
+    background-color: #1a0f0f;
+    color: white;
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 8px;
+    position: relative;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-quote {
+    font-size: 4rem;
+    color: var(--gaux);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.5;
+    font-family: Georgia, serif;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+    color: #e0e0e0;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.author-info h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.author-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--gaux);
+}
+
+/* Customização do Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--gaux) !important;
+}
+
+.swiper-pagination-bullet {
+    background: var(--gaux) !important;
+}
+
+.testimonials-swiper {
+    padding-bottom: 4rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        height: auto;
+        min-height: 280px;
+    }
 }
 
 /* FOOTER */

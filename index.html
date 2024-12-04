@@ -28,6 +28,9 @@
         rel="stylesheet">
 
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -67,6 +70,9 @@
                             </li>
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#depoimentos">Depoimentos</a>
                             </li>
                         </ul>
                         <!-- Contato -->
@@ -111,13 +117,13 @@
 
                     <div class="servicos-lista">
                         <div class="servico-item" data-aos="fade-right" data-aos-duration="1300">
-                            <span class="numero">01</span> Projetos arquitetônico
+                            <span class="numero">01</span> Projeto arquitetônico
                         </div>
                         <div class="servico-item" data-aos="fade-right" data-aos-duration="1400">
                             <span class="numero">02</span> Projeto de Interiores
                         </div>
                         <div class="servico-item" data-aos="fade-right" data-aos-duration="1500">
-                            <span class="numero">03</span> Proejto de Reforma
+                            <span class="numero">03</span> Proejoto de Reforma
                         </div>
                         <div class="servico-item" data-aos="fade-right" data-aos-duration="1600">
                             <span class="numero">04</span> Acompanhamento de Obra e Consultoria
@@ -127,8 +133,8 @@
                 <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center">
                     <img src="img/cozinha.webp" alt="Foto cozinha" class="imagem-secao" data-aos="fade-left"
                         data-aos-duration="1700" />
-                    <a href="https://api.whatsapp.com/send/?phone=5561991651009&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0" target="_blank"
-                        class="btn-orcamento" data-aos="fade-left" data-aos-duration="1700">FAZER
+                    <a href="https://api.whatsapp.com/send/?phone=5561991651009&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0"
+                        target="_blank" class="btn-orcamento" data-aos="fade-left" data-aos-duration="1700">FAZER
                         ORÇAMENTO</a>
                 </div>
             </div>
@@ -142,7 +148,7 @@
             <div class="row">
                 <div class="col-md-6" data-aos="fade-right" data-aos-duration="1100">
                     <div class="about-image">
-                        <img src="img/Foto-Nathalia.webp" alt="Arquiteto em ambiente moderno">
+                        <img src="img/nathalia.webp" alt="Arquiteto em ambiente moderno">
                     </div>
                 </div>
                 <div class="col-md-6" id="sobre-txt">
@@ -152,8 +158,10 @@
                         <h2 class="section-title" data-aos="fade-left" data-aos-duration="1200">Modernos,
                             Inovadores<br>e Criativos</h2>
                         <p class="section-description" data-aos="fade-left" data-aos-duration="1300">
-                            Sob a Liderança da Arquiteta Nathalia Lima, nossa equipe é formada por especialistas dedicados à excelência em cada projeto. <br>
-                            Movidos pela criatividade e ousadia, somos arquitetos de sonhos, comprometidos a explorar todo o potencial do seu espaço.
+                            Sob a Liderança da Arquiteta Nathalia Lima, nossa equipe é formada por especialistas
+                            dedicados à excelência em cada projeto. <br>
+                            Movidos pela criatividade e ousadia, somos arquitetos de sonhos, comprometidos a explorar
+                            todo o potencial do seu espaço.
                         </p>
                         <a href="#" class="cta-button" data-aos="fade-left" data-aos-duration="1350">Garantir meu
                             projeto </a>
@@ -249,7 +257,7 @@
             <div class="row justify-content-center g-4 mt-4">
                 <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1100">
                     <div class="project-card">
-                        <img src="img/cozinha.webp" class="img-fluid rounded" alt="Imagem cozinha">
+                        <img src="img/fachada02.png" class="img-fluid rounded" alt="Imagem cozinha">
                         <div class="project-overlay">
                             <h3>Cozinha Moderna</h3>
                             <p>Design contemporâneo com funcionalidade e elegância</p>
@@ -260,7 +268,7 @@
 
                 <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1150">
                     <div class="project-card">
-                        <img src="img/fachada.webp" class="img-fluid rounded" alt="Imagem fachada">
+                        <img src="img/Slide1.png" class="img-fluid rounded" alt="Imagem fachada">
                         <div class="project-overlay">
                             <h3>Fachada Contemporânea</h3>
                             <p>Linhas modernas com acabamento sofisticado</p>
@@ -271,7 +279,7 @@
 
                 <div class="col-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1200">
                     <div class="project-card">
-                        <img src="img/sala.webp" class="img-fluid rounded" alt="Imagem sala">
+                        <img src="img/quarto.jpg" class="img-fluid rounded" alt="Imagem sala">
                         <div class="project-overlay">
                             <h3>Sala de Estar</h3>
                             <p>Ambiente acolhedor com design integrado</p>
@@ -288,7 +296,237 @@
         </div>
     </section>
 
-    
+    <section class="testimonials-section" id="depoimentos">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 data-aos="fade-up" data-aos-duration="1100">O que dizem nossos clientes</h2>
+                <p data-aos="fade-up" data-aos-duration="1150">Depoimentos de quem já transformou seus sonhos em
+                    realidade
+                </p>
+            </div>
+
+            <div class="swiper testimonials-swiper" data-aos="fade-up" data-aos-duration="1200">
+                <div class="swiper-wrapper">
+                    <!-- Depoimento 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Fiz uma consultoria com a Nathalia Lima Arquitetura e ela montou um moodboard
+                                transformando meu consultorio de
+                                psicologia, que era classico, em um ambiente moderno e confortavel, tendo dado toda a
+                                assistencia que precisei no
+                                processo. Ficou maravilhoso!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Aldecina Cruz</h4>
+                                    <p>Projeto Comercial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional responsável muito atenciosa e cordial.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Akira Souza</h4>
+                                    <p>Projeto Comercial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente. Nathalia, grande profissional.Bom gosto,sensatez, moderna.Seu trabalho no meu
+                                salão e na minha casa ficou maravilhoso. Ela muito focada, acompanhou tudo e fez a
+                                diferença nos detalhes. Gratidão.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Helena Lima</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional!!
+                                Pontual e dedicada ao projeto , sempre prestativa ... só tenho a agradecer pelo serviços
+                                prestados.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Ciro Soares</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                A Nathalia é uma excelente profissional. Dedicada, prestativa e executa seu trabalho de
+                                maneira excepcional. Nos auxiliou em todas as etapas da nossa reforma. Só temos coisas
+                                maravilhosas para relatar!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4> Thais Salles</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Parabéns, Nathalia!
+                                excelente profissional, é uma honra ter a oportunidade em executar os seus projetos
+                                Parceria sempre!!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Daniel Inácio</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 7 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional!
+                                So tenho a agradecer pelo seu trabalho. Transformou minha casa de tal forma que ate hj
+                                nao acredito ser real. Cuidou de cada detalhe, com muito carinho, pontualidade,
+                                responsabilidade...
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Ronice Soares</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 8 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional, muito simpática e atenciosa. Os projetos são de muita qualidade,
+                                os 3D ficaram incríveis, gostei bastante do resultado do trabalho da Nathalia!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Dan Neto</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 9 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional, super atenciosa. Um trabalho mais lindo do que o outro. Além de
+                                ser super caprichosa! Super recomendo!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Monica Dias</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 10 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Excelente profissional, trabalho incrível com grande dedicação e aperfeiçoamento...super
+                                recomendo
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Elis Regina</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 11 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Nathalia é super empenhada! Uma excelente profissional! Tem bom gosto, caprichosa,
+                                pontual! Recomendo demais!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Maria Elizena</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 12 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <p class="testimonial-text">
+                                Arquiteta nota 10!
+                                Aberta a discussões, sugestões, está sempre atualizada!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Pedro Henrique Gaspar</h4>
+                                    <p>Projeto Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navegação -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="contact-section">
@@ -300,7 +538,8 @@
                         interior ou
                         comercial! Entre em contato conosco hoje mesmo.</p>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/nathalialima.arquitetura/" class="social-link" target="_blank">
+                        <a href="https://www.instagram.com/nathalialima.arquitetura/" class="social-link"
+                            target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-instagram" viewBox="0 0 16 16">
                                 <path
